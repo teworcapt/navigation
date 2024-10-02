@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components';
-import About from './components';
-import Counter from './components';
-import Contact from './components';
+import Home from './components/Home';
+import About from './components/About';
+import Counter from './components/Counter';
+import Contact from './components/Contact';
 
 function App() {
 return (
